@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/background"
+        tools:context="com.example.android.quiz.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:scaleType="center"
+            android:src="@drawable/silver" />
+
+        <TextView
+            style="@style/address"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t1" />
+
+        <TextView
+            style="@style/questionstyle"
+            android:layout_height="wrap_content"
+            android:text="@string/q1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/q1edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/questionstyle"
+            android:layout_height="wrap_content"
+            android:text="@string/q2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/answerstyle"
+                android:text="SPORT" />
+
+            <RadioButton
+                android:id="@+id/q2radiobutton2_music"
+                style="@style/answerstyle"
+                android:text="MUSIC" />
+
+            <RadioButton
+                style="@style/answerstyle"
+                android:text="NOVELS" />
+        </RadioGroup>
+
+        <TextView
+
+            style="@style/questionstyle"
+            android:layout_height="wrap_content"
+            android:text="@string/q3" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q3radiobutton_bonn"
+                style="@style/answerstyle"
+                android:text="Bonn" />
+
+            <RadioButton
+                style="@style/answerstyle"
+                android:text="paris" />
+
+            <RadioButton
+                style="@style/answerstyle"
+                android:text="Berlin" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionstyle"
+            android:layout_height="wrap_content"
+            android:text="@string/q4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/q4checkbox_chinese"
+                style="@style/answerstyle"
+                android:text="CHINESSE" />
+
+            <CheckBox
+                android:id="@+id/q4checkbox2_korean"
+                style="@style/answerstyle"
+                android:text="KOREAN" />
+
+            <CheckBox
+                android:id="@+id/q4checkbox3_japanese"
+                style="@style/answerstyle"
+                android:text="JAPANESSE" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/questionstyle"
+            android:layout_height="wrap_content"
+            android:text="@string/q5" />
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q5radiobutton_shontel"
+                style="@style/answerstyle"
+                android:text="shontel" />
+
+            <RadioButton
+                style="@style/answerstyle"
+                android:text="madona" />
+
+            <RadioButton
+                style="@style/answerstyle"
+                android:text="Brittny" />
+        </RadioGroup>
+
+        <TextView
+
+            style="@style/questionstyle"
+            android:layout_height="wrap_content"
+            android:text="@string/q6" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/answerstyle"
+                android:text="70" />
+
+            <RadioButton
+                style="@style/answerstyle"
+                android:text="80" />
+
+            <RadioButton
+                android:id="@+id/q6radiobutton3_88"
+                style="@style/answerstyle"
+                android:text="88" />
+        </RadioGroup>
+
+        <LinearLayout style="@style/submitlayout">
+
+            <Button
+                android:id="@+id/submit"
+                style="@style/submit"
+                android:onClick="submit"
+                android:text="submit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

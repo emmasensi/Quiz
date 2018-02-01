@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="q1">K-pop is a genre of music that originated in what country?</string>
+    <string name="q2">A Grammy is an award to recognize outstanding achievement in what industry?</string>
+    <string name="q3">In what city was Ludwig van Beethoven born?</string>
+    <string name="q4">what are the nationalties of the members of the group EXO?</string>
+    <string name="q5">who sang impossible?</string>
+    <string name="q6">how many keys are in piano?</string>
+    <string name="t1">MUSIC QUIZ</string>
+</resources>
